@@ -1,6 +1,6 @@
 # LipidProteinAnalyzer
 
-[![DOI](https://doi.org/10.5281/zenodo.16756837)
+[![DOI](https://doi.org/10.5281/zenodo.16756837)]
 
 Time-series analysis tool for lipid-protein interactions in molecular dynamics simulations with parallel processing support.
 
