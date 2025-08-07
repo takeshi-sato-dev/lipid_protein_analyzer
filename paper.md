@@ -38,7 +38,6 @@ Current challenges include:
 - **Leaflet-specific analysis** using MDAnalysis's LeafletFinder algorithm
 - **Memory-efficient processing** through frame chunking
 
-![Analysis results showing time-dependent lipid-protein interactions for four membrane proteins, with automatic smoothing and multiple lipid types tracked simultaneously.](figures/figure1.png)
 
 # Implementation and Performance
 
@@ -52,6 +51,10 @@ Key features include:
 - Automatic detection and use of 75% of available CPU cores
 - Both weighted (distance-dependent) and simple (binary) contact metrics
 - Multiple visualization outputs with different smoothing windows for publication flexibility
+
+![Figure 1: Time-series analysis of lipid-protein interactions. The software tracks multiple lipid types (POPC, POPE, POPS, and cholesterol) around membrane proteins over the simulation trajectory. Each panel shows one protein with smoothed trends highlighting temporal changes in lipid composition.](figures/figure1.png)
+
+The figure above demonstrates the visualization capabilities of LipidProteinAnalyzer, showing how different lipid species interact with membrane proteins over time. The automatic smoothing feature helps identify trends while preserving the underlying data structure.
 
 # Usage
 
