@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Your Last Name"
+    given-names: "Your First Name"
+    orcid: "https://orcid.org/0009-0006-9156-8655"
+title: "LipidProteinAnalyzer: Time-series analysis of lipid-protein interactions"
+version: 1.0.0
+date-released: 2025-01-07
+url: "https://github.com/YOUR_USERNAME/lipid_protein_analyzer"
+doi: 10.5281/zenodo.XXXXXXX
+license: MIT
+keywords:
+  - molecular dynamics
+  - lipid-protein interactions
+  - membrane proteins
+  - time series analysis
+  - parallel processing
