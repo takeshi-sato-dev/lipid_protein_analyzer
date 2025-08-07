@@ -19,7 +19,10 @@ bibliography: paper.bib
 
 # Summary
 
+
 `LipidProteinAnalyzer` is a Python tool for analyzing time-dependent lipid-protein interactions in molecular dynamics (MD) simulations. The software automatically identifies membrane leaflets, calculates distance-weighted and binary contact metrics, and generates publication-ready visualizations with customizable smoothing windows. It features parallel processing capabilities that reduce analysis time from hours to minutes for large trajectories, making it practical for analyzing microsecond-scale simulations.
+
+The software is available at https://github.com/takeshi-sato-dev/lipid_protein_analyzer and archived at Zenodo (DOI: 10.5281/zenodo.16756837).
 
 # Statement of need
 
@@ -72,7 +75,7 @@ proteins = select_proteins(u, n_proteins=4)
 # Run parallel analysis
 time_series_data = analyze_time_series_parallel(
     u, proteins, lipid_sels, 
-    start=60000, stop=80000, step=50
+    start=20000, stop=80000, step=50
 )
 
 # Generate visualizations
@@ -81,6 +84,10 @@ plot_lipid_bar_charts(time_series_data, proteins, lipid_sels, L, 'output/')
 ```
 
 The software has been tested on Martini coarse-grained simulations but supports any trajectory format compatible with MDAnalysis.
+
+# Software Availability
+
+The source code for LipidProteinAnalyzer is available on GitHub at https://github.com/takeshi-sato-dev/lipid_protein_analyzer. The software is archived on Zenodo with DOI: 10.5281/zenodo.16756837 ensuring long-term availability and citability.
 
 # Acknowledgements
 
