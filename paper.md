@@ -7,13 +7,13 @@ tags:
   - membrane proteins
   - parallel processing
 authors:
-  - name: Your Name
-    orcid: 0000-0000-0000-0000
+  - name: Takeshi Sato
+    orcid: 0009-0006-9156-8655
     affiliation: 1
 affiliations:
- - name: Your University, Department
+ - name: Kyoto Pharmaceutical University
    index: 1
-date: 7 January 2025
+date: 7 August 2025
 bibliography: paper.bib
 ---
 
