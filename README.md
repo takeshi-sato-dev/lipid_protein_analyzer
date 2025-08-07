@@ -1,6 +1,6 @@
 # LipidProteinAnalyzer
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://doi.org/10.5281/zenodo.16756837)
 
 Time-series analysis tool for lipid-protein interactions in molecular dynamics simulations with parallel processing support.
 
@@ -91,7 +91,7 @@ If you use this software, please cite:
 ```bibtex
 @article{YourName2025,
   title={LipidProteinAnalyzer: Time-series analysis of lipid-protein interactions in molecular dynamics simulations},
-  author={Your Name},
+  author={Takeshi Sato},
   journal={Journal of Open Source Software},
   year={2025},
   doi={10.21105/joss.XXXXX}
