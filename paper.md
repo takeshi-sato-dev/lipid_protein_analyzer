@@ -38,6 +38,8 @@ Current challenges include:
 - **Leaflet-specific analysis** using MDAnalysis's LeafletFinder algorithm
 - **Memory-efficient processing** through frame chunking
 
+![Analysis results showing time-dependent lipid-protein interactions for four membrane proteins, with automatic smoothing and multiple lipid types tracked simultaneously.](figures/figure1.png)
+
 # Implementation and Performance
 
 The tool processes trajectories in parallel by distributing frames across multiple CPU cores. For a typical system (4 proteins, ~50,000 atoms, 20,000 frames), performance benchmarks show:
